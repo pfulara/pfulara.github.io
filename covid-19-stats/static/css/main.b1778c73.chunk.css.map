@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,KACE,qDAAwD,CACxD,6BAA8B,CAC9B,qBAAuB,CACvB,cAAe,CACf,sBACF","file":"main.b1778c73.chunk.css","sourcesContent":["body {\n  background: linear-gradient(30deg, skyblue, transparent);\n  min-height: calc(100vh - 30px);\n  margin: 15px !important;\n  font-size: 16px;\n  font-family: sans-serif;\n}\n"]}

@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div>
       <Image
+        priority
         src='https://firebasestorage.googleapis.com/v0/b/portfolio-44cf3.appspot.com/o/biznesowa%20(6)%20small.jpg?alt=media&token=651680cd-c5ff-4455-a86a-d0149f1887c6'
         alt='Paweł Fulara'
         width={300}

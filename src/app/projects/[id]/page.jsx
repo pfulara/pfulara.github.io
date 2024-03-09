@@ -1,6 +1,6 @@
 import Loading from '@/app/loading';
 import React, { Suspense } from 'react';
-import SingleProjectPage from './SingleProjectPage';
+import SingleProjectPage from './components/SingleProjectPage';
 
 export default function SingleProject({ params }) {
   const { id } = params;

@@ -7,6 +7,7 @@ export default function ImageModal({ image }) {
   return (
     <>
       <Image
+        priority
         src={image}
         alt='Project screen'
         width={600}
@@ -16,15 +17,16 @@ export default function ImageModal({ image }) {
       />
       {open && (
         <div
-          className='absolute top-0 left-0 w-full h-full bg-black/50 z-10 pt-8'
+          className='absolute top-0 left-0 w-full h-full bg-black/50 z-10 pt-8 margin-auto'
           onClick={() => setOpen(false)}
         >
-          <div className='absolute top-0 left-0 w-full h-screen flex items-center justify-center'>
+          <div className='absolute top-0 left-[5%] w-[90%] h-screen flex items-center justify-center px-2'>
             <Image
               src={image}
               alt='Project screen'
               width={1200}
               height={600}
+              className='w-auto h-auto max-h-[90%]'
             />
           </div>
         </div>

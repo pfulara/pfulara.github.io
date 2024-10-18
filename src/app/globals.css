@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  letter-spacing: 1px;
+  font-family: "Lato";
+  margin: 0;
+  background-color: #212529;
+  color: #fff;
+}
+
+footer {
+  background-color: #212529;
+}

@@ -4,6 +4,7 @@ const nextConfig = {
   crossOrigin: 'anonymous',
   assetPrefix: '/',
   output: 'export',
+  distDir: 'docs',
   images: {
     unoptimized: true,
     remotePatterns: [

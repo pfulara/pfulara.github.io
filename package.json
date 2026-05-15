@@ -9,7 +9,7 @@
     "preview:static": "npx --yes serve@14 out",
     "start": "next start",
     "lint": "eslint",
-    "deploy": "npm run build:static && npx --yes gh-pages@6 -d out --dotfiles",
+    "deploy": "npm run build:static && node scripts/deploy-gh-pages.mjs",
     "deploy:project": "GITHUB_PAGES_BASE_PATH=/portfolio npm run deploy"
   },
   "dependencies": {

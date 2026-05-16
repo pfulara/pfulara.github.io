@@ -73,6 +73,29 @@ const projects: Project[] = [
     featured: true,
   },
   {
+    slug: 'cenntrum-meblowe',
+    title: 'Centrum Meblowe',
+    demoLink: 'https://centrummeblowe.pl',
+    tagline:
+      'Full-stack e-commerce for a furniture retailer.',
+    description:
+      'Centrum Meblowe is an e-commerce storefront for a furniture retailer. Built on PrestaShop with a Laravel backend, the project focused on delivering a clean, browsable shopping experience—category pages, product listings, and a smooth checkout path—all styled with SCSS for a consistent, brand-aligned look.',
+    role: 'Frontend development',
+    highlights: [
+      'Built and customised PrestaShop theme with SCSS for a polished, on-brand storefront',
+      'Extended and maintained backend logic with Laravel for custom e-commerce workflows',
+      'Optimised product listing and category pages for clarity and ease of browsing',
+    ],
+    stack: ['Laravel', 'Prestashop', 'SCSS', 'PostgreSQL'],
+    images: [
+      '/images/centrum-meblowe/image01.png',
+      '/images/centrum-meblowe/image02.png',
+      '/images/centrum-meblowe/image03.png',
+      '/images/centrum-meblowe/image04.png',
+    ],
+    featured: false,
+  },
+  {
     slug: 'imaginator',
     title: 'Imaginator',
     tagline:

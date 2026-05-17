@@ -3,7 +3,10 @@ import { SectionHeading } from '@/components/ui/SectionHeading';
 
 export default function Experience() {
   return (
-    <section className='mt-20 md:mt-28' aria-labelledby='experience-heading'>
+    <section
+      className='mt-20 md:mt-28'
+      aria-labelledby='experience-heading'
+    >
       <SectionHeading
         eyebrow='Background'
         title='Experience at a glance'
@@ -15,8 +18,12 @@ export default function Experience() {
             key={label}
             className='rounded-xl border border-default bg-card px-6 py-8 text-center'
           >
-            <p className='text-2xl font-bold text-accent md:text-3xl'>{value}</p>
-            <p className='mt-2 text-sm text-muted'>{label}</p>
+            <p className='text-2xl font-bold text-accent'>
+              {value}
+            </p>
+            <p className='mt-2 text-sm text-muted'>
+              {label}
+            </p>
           </li>
         ))}
       </ul>
